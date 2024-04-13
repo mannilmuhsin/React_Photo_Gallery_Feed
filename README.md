@@ -1,15 +1,37 @@
-Overview of the Project
-The project is a photo gallery feed application, featuring a front-end built with React and a back-end built with Express. The application fetches photo gallery data from an external API and displays it on the front-end using dynamic rendering and various UI components.
+# Photo Gallery Feed Application
 
-Front-End Features
-Reusability: The front-end code is divided into separate components (Header, ArticleList, ArticleItem, ArticleModal) for better reusability and maintainability.
-Material-UI Components: The application uses Material-UI components like CircularProgress and Skeleton to enhance the user interface and provide visual feedback.
-Modal for Full View: The application uses a modal component to display the full view of selected articles.
-Loading Indicators: Circular progress indicators (CircularProgress) are used to show that new data is being loaded.
-Axios for Fetching Data: The axios library is used for making HTTP requests to fetch data from the back end.
-Tailwind CSS for Styling: Tailwind CSS is configured to provide utility-based styling for the application, enabling efficient and consistent UI design.
-Back-End Features
-Allowing All CORS: The back-end uses the cors middleware to allow cross-origin requests from any origin.
-Dynamic Rendering with Path Parameters: The back-end uses path parameters to handle requests dynamically and fetch data from the external API based on the requested page number.
-Configuration of Tailwind CSS for Styling
-Tailwind CSS is a utility-first CSS framework that provides a comprehensive set of classes for styling components efficiently. The application is configured to use Tailwind for a consistent and modern design.
+Welcome to the **Photo Gallery Feed Application**! This project is a photo gallery feed app featuring a front-end built with React and a back-end built with Express. It fetches photo gallery data from an external API and displays it on the front-end using dynamic rendering and various UI components.
+
+## Table of Contents
+
+- [Features](#features)
+- [Technologies](#technologies)
+- [Configuration](#configuration)
+
+
+## Features
+
+### Front-End
+
+- **Reusability**: Modular components such as `Header`, `ArticleList`, `ArticleItem`, and `ArticleModal` for better reusability and maintainability.
+- **Material-UI Components**: Utilizes Material-UI components like `CircularProgress` and `Skeleton` for a polished user interface and visual feedback.
+- **Modal for Full View**: Displays a modal component for full viewing of selected articles.
+- **Loading Indicators**: `CircularProgress` for visual feedback while data is loading.
+- **Axios for Fetching Data**: Uses Axios for HTTP requests to fetch data from the back-end.
+- **Tailwind CSS for Styling**: Efficient and consistent UI design with Tailwind CSS.
+
+### Back-End
+
+- **Allowing All CORS**: Uses the `cors` middleware for cross-origin requests from any origin.
+- **Dynamic Rendering**: Path parameters to handle requests dynamically and fetch data from the external API.
+
+## Technologies
+
+- **Front-End**: React, Material-UI, Axios, Tailwind CSS
+- **Back-End**: Express, Node.js, Cors
+- **External API**: Photo Gallery Data API
+
+## Configuration
+### Tailwind CSS
+
+This application uses Tailwind CSS for efficient and consistent styling. For more information, refer to the [Tailwind documentation](https://tailwindcss.com/docs).
