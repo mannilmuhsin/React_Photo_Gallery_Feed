@@ -44,7 +44,7 @@ function ArticleList({ onArticleClick, setIsModalOpen, setSelectedArticle }) {
 
     try {
       const response = await axios.get(
-        `http://localhost:3001/api/photo-gallery-feed-page/page/${currentPage}`
+        `https://react-photo-gallery-feed-api.vercel.app/api/photo-gallery-feed-page/page/${currentPage}`
       );
       const newArticles = response.data.nodes;
 
