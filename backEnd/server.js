@@ -8,6 +8,10 @@ const PORT = 3001;
 // Enable CORS for all origins
 app.use(cors());
 
+app.get('/', (req, res) => {
+  res.send('Hello World')
+})
+
 app.get("/api/photo-gallery-feed-page/page/:pageNumber", async (req, res) => {
   const { pageNumber } = req.params;
 
